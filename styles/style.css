@@ -98,6 +98,8 @@ header {
 .menu-container{
     display: flex;
     flex-direction: row;
+    justify-content: end;
+    /* padding-right: 1.5rem; */
 }
 
 .menu{
@@ -129,6 +131,50 @@ header {
     text-transform: uppercase;
     color: var(--seafoam-green);
     font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-secondary-default{
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    padding-left: 2.3125rem;
+    padding-right: 2.3125rem;
+    font-family: Ubuntu;
+    font-size: 1.125rem;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--yellow-1);
+    border: 0;
+}
+
+.btn-primary-default{
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    padding-left: 2.3125rem;
+    padding-right: 2.3125rem;
+    font-family: Ubuntu;
+    font-size: 1.125rem;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--seafoam-green);
+    border: 0;
+}
+
+.illustration-container{
+    padding-top: 1.0625rem;
+}
+
+.btn-container-1 button:nth-of-type(1){
+    margin-right: 1.125rem;
 }
 
 .main{
