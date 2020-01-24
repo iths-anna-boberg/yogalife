@@ -1,0 +1,158 @@
+:root{
+    font-size: 16px;
+    --gray-1: #f2f2f2;
+    --gray-2: #d9d9d9;
+    --green-3: #e9fbf9;
+    --green-2: #004d41;
+    --seafoam-green: #00806d;
+    --green-4: #bddbd7;
+    --yellow-1: #ffa433;
+    --gray-5: #404040;
+    --gray-4: #808080;
+    --green-2: #27ae60;
+    --gray-3: #bfbfbf;
+    --yellow-2: #d98926;
+    --yellow-3: #ffc680;
+    --white: #ffffff;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.19px;
+    color: #000000;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 4.209em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+
+h2{
+    font-size: 3.157em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+h3{
+    font-size: 2.369em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+h4{
+    font-size: 1.13em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: var(--seafoam-green);
+}
+
+header {
+    width: 100%;
+    height: 5.4375rem;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 176.1px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.logo-container{
+    width: 50%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li{
+    padding-left: 0;
+    padding-right: 5.125rem;
+}
+
+.btn-tertiary-default{
+    padding-left: 2.3125rem;
+    padding-right: 2.3125rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.125rem;
+    margin-right: 1.5rem;
+    margin-left: 0;
+    background-color: var(--white);
+    border: solid 4px var(--seafoam-green);
+    font-size: 1.13em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: var(--seafoam-green);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 200vh;
+}
+
+.top-content{
+    background-image: url(/img/background_wave.svg);
+    background-repeat: no-repeat;
+    height: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    margin-top: 7rem;
+    margin-left: 10.3125rem;
+    max-width: 37.5%;
+}
+
+.footer{  
+    width: 100vw;
+    height: 12.125rem;
+    background-color: var(--seafoam-green);
+    
+}
